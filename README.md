@@ -10,5 +10,5 @@ for f in *.mkv; do echo "file '$f'" >> ./01_merge_videos_list.txt; done
 ```
 
 ```
-ffmpeg -f concat -safe 0 -i ./01_merge_videos_list.txt -c copy ./00_output.mkv
+ffmpeg -f concat -safe 0 -i ./01_merge_videos_list.txt -c copy ./00_merged-video.mkv
 ```
